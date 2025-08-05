@@ -12,7 +12,7 @@ LABELS_URL = "https://raw.githubusercontent.com/pytorch/hub/master/imagenet_clas
 labels = urllib.request.urlopen(LABELS_URL).read().decode('utf-8').splitlines()
 
 # Load and preprocess image
-image_path = "test.jpg"  # Make sure you have this image
+image_path = "/home/catkin_ws/src/amr_object_recognition/src/cat.jpg"  
 img = Image.open(image_path).convert("RGB")
 
 preprocess = transforms.Compose([
