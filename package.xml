@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_basics</name>
+  <name>amr_object_recognition</name>
   <version>0.0.0</version>
   <description>The amr_object_recognition package</description>
 
